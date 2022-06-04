@@ -1,1 +1,1 @@
-"# YarnBeeShoppingSite" 
+"# YarnBeeStore" 
