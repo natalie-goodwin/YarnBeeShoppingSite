@@ -13,58 +13,63 @@
     
     <!--NAVBAR SECTION-->
     
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
           <a class="navbar-brand" href="index.html">YarnBee <img src="images/honeyBee.png" alt="honeybee"></a> 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
               
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li> <!--home page link-->
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li> <!--about page link-->
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li> <!--contact page link-->                       
-            </ul>  
-                     
-          </div>  <!--closing collapse navbar div-->
-        </div> <!--closing container-fluid div-->                
-      </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li> <!--home page link-->
+            <li class="nav-item">
+              <a class="nav-link" href="storeInfo.html">Store Information</a>
+            </li> <!--about page link-->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li> <!--contact page link-->                       
+          </ul>                       
+        </div>  <!--closing collapse navbar div-->
+      </div> <!--closing container div-->                
+    </nav>
     
       <!--MAIN SECTION-->        
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm sectionA">                
-                  <h1>
-                    Whatever you need for your next knitting or crochet project, YarnBee has you covered!
-                  </h1>  
-            </div> <!--closing sectionA class div-->
-           
-            <div class="col-sm sectionB">                  
-              <img class="yarn-closet-img" src="images/Paul Hanaoka.jpg" class="img-fluid" alt="...">
-            </div> <!--closing sectionB class div-->
+       <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm"> 
+              <blockquote class="blockquote">
+                <p class="mb-0">
+                  YarnBee is a family-owned craft business in the Nashville community. Our goal is to
+                  provide our customers with the yarn and needlework brands they know and love including Lion, Red Heart,
+                  Lily Sugar 'N Cream, Caron, Bernat, Clover, Boye and many more! Visit us today and let us 
+                  help you find what you need for your next project.                                  
+                </p>
+              </blockquote>                   
+          </div> <!--closing col-sm class div-->
             
-            <div class="col-sm sectionC">                  
-                <img class="basket-img" src="images/Dragan SmiljkovicUnsplash.jpg" class="img-fluid" alt="...">
-                <img class="heart-img" src="images/gojakUpsplash.jpg" alt="">
-            </div> <!--closing sectionC class div-->
-          </div> <!--closing row class div-->            
-        </div> <!--closing container-fluid class div-->
-
-      
+           
+            <div class="col-sm">                  
+              <img class=" image-responsive yarnCloset" src="images/Paul Hanaoka.jpg" alt="...">
+            </div> <!--closing col-sm class div-->
+            
+            <div class="col-sm">                  
+                <img class="image-responsive basket" src="images/Dragan SmiljkovicUnsplash.jpg" alt="..."> 
+                <img class="image-responsive heart" src="images/gojakUpsplash.jpg" alt="">
+            </div> <!--closing col-sm class div-->
+        </div> <!--closing row class div-->            
+      </div> <!--closing container class div-->    
     
-        <!--FOOTER SECTION-->
-
-        <div class="footer">          
-          <p>Images available on <a href="http://www.unsplash.com">unsplash.com</a></p>
-        </div> <!--closing footer class div-->       
+       <!--FOOTER SECTION-->
+     <br>
+     <div class="footer">          
+       <p>Images available on <a href="http://www.unsplash.com">unsplash.com</a>. 
+       Credits: yarn closet: Paul Hanaoka; yarn basket: Dragan Smiljkovic; crochet hook with heart: gojak</p>
+     </div> <!--closing footer class div-->         
         
         <!--Bootstrap Scripts-->
        <script src="node_modules/jquery/dist/jquery.js"></script>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>YarnBee - Home - Contact</title>
+        <title>YarnBee - Contact </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
@@ -9,46 +9,81 @@
         <link rel="stylesheet" href="css/styles.css"> <!--additional style-->        
     </head>
 
-<body>     
+<body>        
     
-    <!--NAVBAR SECTION-->
+  <!--NAVBAR SECTION-->
     
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">YarnBee <img src="images/honeyBee.png" alt="honeybee"></a> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-              
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li> <!--home page link-->
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li> <!--about page link-->
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li> <!--contact page link-->                       
-            </ul>  
-                     
-          </div>  <!--closing collapse navbar div-->
-        </div> <!--closing container-fluid div-->                
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">YarnBee <img src="images/honeyBee.png" alt="honeybee"></a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li> <!--home page link-->
+          <li class="nav-item">
+            <a class="nav-link" href="storeInfo.html">Store Information</a>
+          </li> <!--about page link-->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li> <!--contact page link-->                       
+        </ul>                       
+      </div>  <!--closing collapse navbar div-->
+    </div> <!--closing container div-->                
+  </nav>
     
       <!--MAIN SECTION-->        
+        <br>
+      <div class="container">
+        <h1>Contact</h1>
+        <br>
+        <h4>Got questions? We'd love to hear from you!</h4>
+        <br>
+        <h4>Phone: 615-555-4999</h4>
+        <br>
+        <h4>Or email us and we'll respond within 24 hours.</h4>
+        <br>     
+        <form class="row g-3">   
         
-      <h1>NEED A FORM FOR CONTACT INFO</h1> 
-
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">First Name:</label> 
+            <input type="text" class="form-control" id="firstName" required>
+        </div>
+        
+        <div class="col-md-6">
+            <label for="lastName" class="form-label">Last Name:</label> 
+            <input type="text" class="form-control" id="lastName" required>
+        </div>
+        
+        <div class="col-md-8">
+            <label for="emailInfo" class="form-label">Email:</label> 
+            <input type="email" class="form-control" id="emailInfo" placeholder="name@example.com" required>
+        </div>
+        
+        <div class="col-md-12">
+            <label for="message" class="form-label">Message:</label>
+            <textarea class="form-control" id="message" rows="6" required></textarea>
+        </div>
+        
+        <div class="col-md-12">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        
+        </form>   
       
-    
-        <!--FOOTER SECTION-->
-
-        <div class="footer">          
-          <p>Images available on <a href="http://www.unsplash.com">unsplash.com</a></p>
-        </div> <!--closing footer class div-->       
+      </div>  <!--closing container class div-->
+          
+    <!--FOOTER SECTION-->
+    <br>
+    <div class="footer">          
+      <p>Images available on <a href="http://www.unsplash.com">unsplash.com</a>. 
+      Credits: yarn closet: Paul Hanaoka; yarn basket: Dragan Smiljkovic; crochet hook with heart: gojak</p>
+    </div> <!--closing footer class div-->  
         
         <!--Bootstrap Scripts-->
        <script src="node_modules/jquery/dist/jquery.js"></script>

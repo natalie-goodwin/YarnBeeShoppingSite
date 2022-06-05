@@ -1,30 +1,23 @@
+body {
+    background-color: #FFE3A9; 
+} /********body color*******/
 
+.footer {    
+    text-align: center;    
+} /********footer alignment*******/
 
-.sectionA .sectionB .sectionC {
-   
-    min-height: 200px;
-  
-}
+.basket {
+    height: 270px;
+    width: 460px;
+}  /********yarn basket image*******/
 
-.footer {
-    
-    height: 40px;
-    text-align: center;
-    
-}
+.heart {
+    height: 270px;
+    width: 460px;
+}   /********yarn heart image*******/
 
-.basket-img {
-    height: 305px;
-    width: 500px;
-}
-
-.heart-img {
-    height: 305px;
-    width: 500px;
-}
-
-.yarn-closet-img {
-    height: 610px;
-    width: 500px;
-}
+.yarnCloset {
+    height: 530px;
+    width: 460px;
+}   /********yarn closet image*******/
 
